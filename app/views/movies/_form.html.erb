@@ -1,0 +1,72 @@
+<%= form_with(model: movie, local: true) do |form| %>
+  <% if movie.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
+
+      <ul>
+        <% movie.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title %>
+    <%= form.text_field :title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :URL %>
+    <%= form.text_field :URL %>
+  </div>
+
+  <div class="field">
+    <%= form.label :movieType %>
+    <%= form.text_field :movieType %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rating %>
+    <%= form.text_field :rating %>
+  </div>
+
+  <div class="field">
+    <%= form.label :minutes %>
+    <%= form.number_field :minutes %>
+  </div>
+
+  <div class="field">
+    <%= form.label :year %>
+    <%= form.number_field :year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :genres %>
+    <%= form.text_field :genres %>
+  </div>
+
+  <div class="field">
+    <%= form.label :votes %>
+    <%= form.number_field :votes %>
+  </div>
+
+  <div class="field">
+    <%= form.label :released %>
+    <%= form.date_select :released %>
+  </div>
+
+  <div class="field">
+    <%= form.label :directors %>
+    <%= form.text_field :directors %>
+  </div>
+
+  <div class="field">
+    <%= form.label :createdTime %>
+    <%= form.datetime_select :createdTime %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

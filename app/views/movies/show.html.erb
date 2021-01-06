@@ -1,0 +1,63 @@
+<p id="notice"><%= notice %></p>
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        Show Method ERB
+        <div class="table-responsive">
+          <table class="table">
+            <tbody>
+            <tr>
+              <td><strong>Title:</strong></td>
+              <td><%= @movie.title %></td>
+            </tr>
+
+            <tr>
+              <td><strong>URL:</strong></td>
+              <td><%= @movie.URL %></td>
+            </tr>
+            <tr>
+              <td><strong>Type:</strong></td>
+              <td><%= @movie.movieType %></td>
+            </tr>
+            <tr>
+              <td><strong>Rating:</strong></td>
+              <td><%= @movie.rating %></td>
+            </tr>
+            <tr>
+              <td><strong>Minute:</strong></td>
+              <td><%= @movie.minutes %></td>
+            </tr>
+            <tr>
+              <td><strong>Year:</strong></td>
+              <td><%= @movie.year %></td>
+            </tr>
+            <tr>
+              <td><strong>Genre:</strong></td>
+              <td><%= @movie.genres %></td>
+            </tr>
+            <tr>
+              <td><strong>Votes:</strong></td>
+              <td><%= @movie.votes %></td>
+            </tr>
+            <tr>
+              <td><strong>Released:</strong></td>
+              <td><%= @movie.released %></td>
+            </tr>
+            <tr>
+              <td><strong>Directors:</strong></td>
+              <td><%= @movie.directors %></td>
+            </tr>
+            <tr>
+              <td><strong>Created Time:</strong></td>
+              <td><%= @movie.created_at %></td>
+            </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

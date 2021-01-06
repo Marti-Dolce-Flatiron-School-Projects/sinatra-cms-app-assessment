@@ -1,0 +1,18 @@
+Puma starting in single mode...
+* Version 4.3.7 (ruby 2.7.2-p137), codename: Mysterious Traveller
+* Min threads: 5, max threads: 5
+* Environment: development
+* Listening on tcp://127.0.0.1:9333
+Use Ctrl-C to stop
+127.0.0.1 - - [05/Jan/2021:19:51:38 -0500] "GET / HTTP/1.1" 200 3975 0.4773
+127.0.0.1 - - [05/Jan/2021:19:51:38 -0500] "GET /packs/js/application-9afcbb5693aa87623e69.js HTTP/1.1" 200 126957 0.0692
+127.0.0.1 - - [05/Jan/2021:19:51:38 -0500] "GET /assets/application.debug-59221eace24804e9477c5f7e116cdbaf5d8a0fba50e9db7443504a2267bd25cd.css HTTP/1.1" 200 2773 0.1143
+127.0.0.1 - - [05/Jan/2021:19:51:39 -0500] "GET /favicon.ico HTTP/1.1" 200 - 0.0525
+127.0.0.1 - - [05/Jan/2021:19:53:56 -0500] "GET / HTTP/1.1" 200 3975 0.1233
+127.0.0.1 - - [05/Jan/2021:19:53:56 -0500] "GET /favicon.ico HTTP/1.1" 200 - 0.0349
+127.0.0.1 - - [05/Jan/2021:19:54:08 -0500] "GET /movies/1 HTTP/1.1" 200 3398 0.0486
+127.0.0.1 - - [05/Jan/2021:19:54:19 -0500] "GET / HTTP/1.1" 200 3975 0.0449
+127.0.0.1 - - [05/Jan/2021:19:54:21 -0500] "GET /movies/1/edit HTTP/1.1" 200 10707 0.0553
+127.0.0.1 - - [05/Jan/2021:19:54:27 -0500] "PATCH /movies/1 HTTP/1.1" 302 96 0.1380
+127.0.0.1 - - [05/Jan/2021:19:54:27 -0500] "GET /movies/1 HTTP/1.1" 200 3505 0.0282
+127.0.0.1 - - [05/Jan/2021:19:54:31 -0500] "GET / HTTP/1.1" 200 3977 0.0314

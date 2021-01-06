@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  URL: MyString
+  type: 
+  rating: MyString
+  minutes: 1
+  year: 1
+  genres: MyString
+  votes: 1
+  released: 2020-12-07
+  directors: MyString
+  createdTime: 2020-12-07 02:48:44
+
+two:
+  title: MyString
+  URL: MyString
+  type: 
+  rating: MyString
+  minutes: 1
+  year: 1
+  genres: MyString
+  votes: 1
+  released: 2020-12-07
+  directors: MyString
+  createdTime: 2020-12-07 02:48:44

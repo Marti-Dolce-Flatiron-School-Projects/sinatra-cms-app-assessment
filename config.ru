@@ -1,4 +1,5 @@
-require './config/environment'
+# This file is used by Rack-based servers to start the application.
 
+require_relative 'config/environment'
 
-run ApplicationController
+run Rails.application

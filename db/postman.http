@@ -1,0 +1,5 @@
+# curl https://api.airtable.com/v0/app2zWZvMc5kGmNV1/main?sort%5B0%5D%5Bfield%5D=id&sort%5B0%5D%5Bdirection%5D=asc&view=json-grid&api_key=keyGh7OWxi5WCtvMo
+GET https://api.airtable.com/v0/app2zWZvMc5kGmNV1/main?sort%5B0%5D%5Bfield%5D=id&sort%5B0%5D%5Bdirection%5D=asc&view=json-grid&api_key=keyGh7OWxi5WCtvMo
+
+###
+

@@ -1,6 +1,9 @@
-ENV['SINATRA_ENV'] ||= 'development'
+# Load the Rails application.
+require_relative 'application'
 
-require 'bundler/setup'
-Bundler.require(:default, ENV['SINATRA_ENV'])
+AIRTABLE_KEY= "keyGh7OWxi5WCtvMo"
+AIRTABLE_APP= "app2zWZvMc5kGmNV1"
 
-require './app/controllers/application_controller'
+
+# Initialize the Rails application.
+Rails.application.initialize!
